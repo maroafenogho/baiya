@@ -1,0 +1,25 @@
+{
+  "name": "baiya",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An e-commerce app",
+  "main": "app.js",
+  "author": "Oghenemaro Afenogho",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0"
+  }
+}
